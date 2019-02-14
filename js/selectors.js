@@ -1,5 +1,6 @@
 // declare your functions here...
 function paragraphSelector() {
+<<<<<<< HEAD
   return $('p')
 }
 
@@ -17,4 +18,9 @@ function divSelector() {
 
 function firstListItem() {
   return $('#pic-list li:first-child')
+=======
+  $(document).ready(function() {
+    $('p')
+  })
+>>>>>>> 467aee333920c06ff089442adf3fbece55a97fa7
 }
